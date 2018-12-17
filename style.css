@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+    background: #4075fc;
+    font-weight: bold;
+}
+.mainform{
+    position: relative;
+    width: 40%;
+    background: white;
+    margin: 80px auto;
+    margin-bottom: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.footer{
+    position: relative;
+    width: 97%;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    text-align: center;
+}
+input[type = text], [type = password]{
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 5px;
+}
+input[type = submit], button{
+    background: #6f2796;
+    color: white;
+    font-size: 11pt;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+input[type = submit]:hover, input[type = reset]:hover,
+button:hover{
+    background: #a12ae2;
+}
+.nwac{
+    color: #b419b8;
+    text-decoration-line: none;
+    font-weight: lighter;
+    margin-left: 210px;
+}
+.nwac:hover{
+    color: #ff3803;
+}
+.nw{
+    color: #b419b8;
+    text-decoration-line: none;
+    font-weight: lighter;
+}
+.nw:hover{
+    color: #ff3803;
+}
+.frgt{
+    color: #b419b8;
+    text-decoration-line: none;
+    font-weight: lighter;
+    margin-left: 0px;
+
+}
+.frgt:hover{
+    color: #ff3803;
+}
+.alert{
+    margin-top: 5%;
+    background: #e44e4e;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border:1px solid #b32929;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.clspan{
+    padding-left: 26%;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #804595;
+}
+.spanNoLine{
+    text-decoration-line: none;
+}
+table{
+    width: 100%;
+}
